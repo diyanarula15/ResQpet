@@ -1,7 +1,6 @@
 # petresque
 
-A new Flutter project.
-
+Developed a mobile application using Flutter and Dart with Firebase as the backend. Implemented a reporting system for capturing images, location, and condition details. Developed a smart dispatch algorithm to notify nearby verified NGOs and enabled real-time status updates and a knowledge base feature.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
