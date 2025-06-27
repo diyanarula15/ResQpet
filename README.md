@@ -1,15 +1,24 @@
-# petresque
+# ResQpet
 
-Developed a mobile application using Flutter and Dart with Firebase as the backend. Implemented a reporting system for capturing images, location, and condition details. Developed a smart dispatch algorithm to notify nearby verified NGOs and enabled real-time status updates and a knowledge base feature.
+ResQpet is a **cross-platform (Android & iOS) mobile application** designed to connect individuals with animal welfare NGOs for the efficient reporting and rescue of injured animals.
+
+It features:
+* An intuitive reporting system for location, images, and condition details.
+* An **AI-powered first-aid chatbot (Gemini API)** to guide users through initial treatment.
+* A comprehensive backend system for NGOs to track requests, assign teams, and manage applications in real-time.
+
+## Tech Stack
+
+* **Frontend:** Flutter, Dart
+* **Backend:** Firebase
+* **APIs:** Gemini API
+
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run ResQpet locally:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.  **Prerequisites:** Ensure Flutter SDK and Android Studio (for tools) are installed.
+2.  **Clone Repository:** `git clone https://github.com/diyanarula15/ResQpet`
+3.  **Navigate:** `cd resqpet-project`
+4.  **Install Dependencies:** `flutter clean && flutter pub get`
+5.  **Run App:** `flutter run`
